@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.princeyoulou.ama"
+        versionCode = "18" 
+        version     = "1.8" >
+    <!-- versionCode is optional and Android only. It must be an integer -->
+    
+
+    <name>AMA</name>
+
+    <description>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, impedit.
+    </description>
+
+    <author href="#" email="princeyoulouàprinceyoulou.com">
+        Intense Pixel Studio
+    </author>
+
+    <!-- build only for android -->
+    <platform name="android" />
+
+    <!-- icon -->
+    <icon src="icon.png" />
+
+
+    <!-- no permission required -->
+    <preference name="permissions" value="none" />
+
+    <preference name="fullscreen" value="false" />
+
+    <!-- access to external links -->
+    <preference name="stay-in-webview" value="false"/>
+    <access origin="*" browserOnly="true"/>
+
+</widget>
+
