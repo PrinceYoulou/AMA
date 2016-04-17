@@ -31,7 +31,7 @@
 
     <!-- call plugin -->
     <plugin spec="https://github.com/Rohfosho/CordovaCallNumberPlugin.git" source="git" />
-    <plugin name="CordovaCallNumberPlugin" />
+    <plugin name="Cordova Call Number Plugin" />
 
     <!-- launching of external app -->
     <access origin="tel:*" launch-external="yes" />
