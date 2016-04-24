@@ -29,16 +29,6 @@
 
     <preference name="fullscreen" value="false" />
 
-    <!-- call plugin -->
-    <plugin spec="https://github.com/Rohfosho/CordovaCallNumberPlugin.git" source="git" />
-    <plugin name="Cordova Call Number Plugin" />
-
-    <!-- launching of external app -->
-    <access origin="tel:*" launch-external="yes" />
-
-    <!-- make phone numbers clickable like text -->
-    <uses-permission android:autoLink="phone" />
-
 
     <!-- access to external links -->
     <preference name="stay-in-webview" value="false"/>
