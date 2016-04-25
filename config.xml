@@ -2,8 +2,8 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.princeyoulou.ama"
-        versionCode = "18" 
-        version     = "1.8" >
+        versionCode = "1" 
+        version     = "1.0" >
     <!-- versionCode is optional and Android only. It must be an integer -->
     
 
@@ -31,7 +31,7 @@
 
     <access origin="tel:*" launch-external="yes" />
     <access origin="mailto:*" launch-external="yes" />
-    <uses-permission android:autoLink="phone" />
+    <uses-permission android:autoLink="phone" android:linksClickable="true" />
 
     <!-- access to external links -->
     <preference name="stay-in-webview" value="false"/>
