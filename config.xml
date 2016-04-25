@@ -29,6 +29,9 @@
 
     <preference name="fullscreen" value="false" />
 
+    <access origin="tel:*" launch-external="yes" />
+    <access origin="mailto:*" launch-external="yes" />
+    <uses-permission android:autoLink="phone" />
 
     <!-- access to external links -->
     <preference name="stay-in-webview" value="false"/>
